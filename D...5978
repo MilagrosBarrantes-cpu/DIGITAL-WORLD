@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    string name1;
+    int A;
+    string name2;
+    int B;
+
+   
+    cin >> name1 >> A;
+
+    
+    cin >> name2 >> B;
+
+    
+    if (A > B) {
+        cout << name1 << endl;
+    } else {
+        cout << name2 << endl;
+    }
+
+    return 0;
+}
